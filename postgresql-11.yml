@@ -3,7 +3,7 @@ services:
   postgresql-11:
     image: postgres:11
     # volumes:
-    #   - /home/ubuntu/DockerVolumes/postgres11/:/var/lib/postgresql/data/
+    #   - /home/ubuntu/docker-volumes/postgres-11/:/var/lib/postgresql/data/
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
